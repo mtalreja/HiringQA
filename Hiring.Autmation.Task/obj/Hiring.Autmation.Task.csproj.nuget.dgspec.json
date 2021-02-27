@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Hiring.Autmation.Task\\Hiring.Autmation.Task.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Hiring.Autmation.Task\\Hiring.Autmation.Task.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Hiring.Autmation.Task\\Hiring.Autmation.Task.csproj",
+        "projectName": "Hiring.Autmation.Task",
+        "projectPath": "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Hiring.Autmation.Task\\Hiring.Autmation.Task.csproj",
+        "packagesPath": "C:\\Users\\mtalreja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Hiring.Autmation.Task\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtalreja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://itron.pkgs.visualstudio.com/_packaging/RND-Tools/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Test.Utility\\Test.Utility.csproj": {
+                "projectPath": "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Test.Utility\\Test.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[88.0.4324.9600, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.4.14, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.4.211, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Test.Utility\\Test.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Test.Utility\\Test.Utility.csproj",
+        "projectName": "Test.Utility",
+        "projectPath": "C:\\Users\\mtalreja\\source\\repos\\Hiring.Autmation.Task\\Test.Utility\\Test.Utility.csproj"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}
