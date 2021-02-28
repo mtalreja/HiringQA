@@ -16,7 +16,6 @@ namespace Hiring.Autmation.Task.StepsDefination
         private JobSearchPage _jobSearchPage;
         private CreateNewAccountPage _createNewAccountPage;
         private PrivacyPolicyPage _privacyPolicyPage;
-        private JobSearchWelcomePage _jobSearchWelcomePage;
 
         public CreateUserSteps(IWebDriver driver)
         {
@@ -25,7 +24,6 @@ namespace Hiring.Autmation.Task.StepsDefination
             _jobSearchPage = new JobSearchPage(driver);
             _privacyPolicyPage = new PrivacyPolicyPage(driver);
             _createNewAccountPage = new CreateNewAccountPage(driver);
-            _jobSearchWelcomePage = new JobSearchWelcomePage(driver);
 
         }
 
